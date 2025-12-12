@@ -12,6 +12,10 @@ A new Flutter project.
 - Verified the app runs successfully on Windows Desktop / Chrome (`flutter run`).
 - Created folder structure for upcoming days.
 
+## 📸 Screenshot
+
+![App Screenshot](screenshot.png)
+
 ## ✔ How to run this Day0 project
 ```bash
 cd day0
