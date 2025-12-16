@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'flash_deal_card.dart';
 
 class FlashDealsList extends StatelessWidget {
   const FlashDealsList({super.key});
@@ -12,7 +13,7 @@ class FlashDealsList extends StatelessWidget {
         itemCount: 5,
         separatorBuilder: (_, __) => const SizedBox(width: 16),
         itemBuilder: (context, index) {
-          return const FlashDealCard();
+          return FlashDealCard();
         },
       ),
     );
