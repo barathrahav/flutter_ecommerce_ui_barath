@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'widgets/phone_frame.dart';
-import 'screens/product_detail_screen.dart';
 import 'screens/home_screen.dart';
 
 void main() {
@@ -15,7 +14,6 @@ class Day3App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: PhoneFrame(
-        // child: const ProductDetailScreen(),
         child: const HomeScreen(),
       ),
     );
